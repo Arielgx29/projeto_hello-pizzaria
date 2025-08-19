@@ -1,0 +1,10 @@
+body {
+    background: rgb(19,19,19) url(../Imagens/background-pedidos.png);
+    background-size: 100%;
+    font-size: 1.6rem;
+}
+
+.titulos h2, .titulos p {
+    text-align: center;
+    padding: 1rem;
+}

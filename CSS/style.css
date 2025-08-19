@@ -16,7 +16,7 @@ html{
 }
 
 body{
-    background:rgb(19,19,19) url(../Imagens/background-pizza.png) no-repeat top center;
+    background:rgb(19,19,19) url('../Imagens/background-pizza.png') no-repeat top center;
     background-size: 100%;
     font-size: 1.6rem;
 }
