@@ -1,5 +1,5 @@
 body {
-    background: rgb(19,19,19) url(../Imagens/background-pedidos.png);
+    background: rgb(19,19,19) url(../Imagens/background-pedidos.png) no-repeat top center;
     background-size: 100%;
     font-size: 1.6rem;
 }
@@ -7,4 +7,54 @@ body {
 .titulos h2, .titulos p {
     text-align: center;
     padding: 1rem;
+}
+
+#cardapio {
+    display: flex;
+    flex-wrap: wrap;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+    padding: 1rem;
+    margin-bottom: 9rem;
+}
+
+.sabores{
+    display: flex;
+    flex-flow: column wrap;
+    width: calc(100% / 3);
+    padding: 1rem;
+}
+
+.sabor img {
+    padding: 1rem;
+}
+
+.sabores div {
+    text-align: center;
+}
+
+.preços {
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+    font-size: 0.8em
+}
+
+.preços div {
+    background: rgb(180, 61, 61);
+    color:  rgb(208, 163, 48);
+    font-weight: 500;
+    padding: 0.8rem;
+}
+
+.ingredientes {
+    font-weight: normal;
+    line-height: 2rem;
+    font-size: 0.7em;
+}
+
+footer {
+    background:  rgb(42, 42, 42);
 }
