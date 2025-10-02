@@ -37,16 +37,16 @@ body {
 
 .preços {
     display: flex;
-    padding: 1rem;
-    justify-content: space-between;
-    font-size: 0.8em
+    padding: 0.8em;
+    justify-content: space-around;
+    font-size: 1.2rem
 }
 
 .preços div {
     background: rgb(180, 61, 61);
     color:  rgb(208, 163, 48);
     font-weight: 500;
-    padding: 0.8rem;
+    padding: 0.5em;
 }
 
 .ingredientes {
