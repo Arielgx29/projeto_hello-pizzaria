@@ -5,4 +5,16 @@
     #cardapio{
         justify-content: center;
     }
+
+    .sabores{
+        width: calc(100% / 2);
+    }
+}
+
+@media (max-width:768px) {
+    
+    /*PÁGINA PRINCIPAL*/
+
+    max-width: 100%;
+    
 }
