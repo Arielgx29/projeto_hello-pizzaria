@@ -11,10 +11,113 @@
     }
 }
 
-@media (max-width:768px) {
-    
+@media (max-width:768px){
+
     /*PÁGINA PRINCIPAL*/
 
-    max-width: 100%;
+    main {
+        max-width: 100%;
+    }
+
+    .desc-ingredientes{
+        max-width: 100%;
+    }
+
+    /*sabores cardápio*/
+
+    .sabores{
+        width: auto;
+        padding: 3rem;
+    }
+}
+
+@media (max-width: 600px) {
+
+    /*PÁGINA PRINCIPAL*/
+
+    main{
+        padding: 1rem;
+    }
+
+    form{
+        width: 100%;
+    }
+
+    #sabores figure {
+        display: none;
+    }
+
+    .desc-ingredientes table th{
+        padding: 1rem;
+    }
+
+    .desc-ingredientes table td {
+        padding: 1rem;
+    }
     
 }
+
+@media (max-width:465px) {
+    /*PÁGINA PRINCIPAL*/
+
+    .img-logo {
+        width: 210px;
+    }
+
+    .menu ul {
+        display: none;
+    }
+    
+    .opt-um, .opt-dois, .opt-tres {
+
+        width: 40px;
+        height: 5px;
+        background-image: linear-gradient(to right, rgb(208, 163, 48), #C9354D);
+        box-shadow: 0px 2px 6px black ;
+        padding: 2px;
+        border-radius: 1px;
+        position: relative;
+        margin: 6px 0px;
+        transition: 0.3s;
+    }
+
+    #menu-check:checked ~ .opt-um {
+        transform: rotate(45deg) translate(7px 7px);
+    }
+
+    #menu-check:checked ~ .opt-dois{
+        opacity: 0;
+    }
+
+    #menu-check:checked ~ .opt-tres {
+        transform: rotate(-45deg) translate(8px -9px);
+    }
+
+    #menu-check:checked ul li {
+        margin: 50px 0px;
+        font-size: 1.5em;
+        text-shadow: 0px 2px 6px black;
+    }
+
+    #menu-check:checked ul li a {
+        color: rgba(208, 163, 48);
+    }
+
+    #menu-check:checked ~ ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: #131313;
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        left: 0;
+        top: 92px;
+    }
+
+    #sabores{
+        display: none;
+    }
+}
+    
+   
