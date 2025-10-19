@@ -66,6 +66,7 @@
 
     .menu ul{
         display: none;
+        transition: all 3s ease
     }
     
     .opt-um, .opt-dois, .opt-tres {
